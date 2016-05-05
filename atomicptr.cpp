@@ -3,7 +3,6 @@
 using namespace std;
 int main()
 {
-	cout<<" Hi"<<endl;
 	int val = 5;
 	std::atomic<int>* atomicptr = reinterpret_cast<std::atomic<int>*>(&val);
 	int expected = 5;
